@@ -10,7 +10,58 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+.dubble-your-coin {
+	text-align: center;
+	padding: 20px;
+}
+.dubble-your-coin p {
+	width: 20%;
+    margin: 0 auto;
+}
+.content-text p {
+	width: 100%;
+	padding: 5%;
+}
+.boxes {
+	width: 55%;
+    margin: 5% auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.content-box {
+	width: 40%;
+    display: flex;
+    border: 1px solid silver;
+    border-radius: 9px;
+    padding: 1%;
+}
+.content-img {
+	width: 30%;
+}
+.content-text {
+	width: 70%;
+}
+.arrow-up , .arrow-down {
+	width: 40%;
+}
+.arrow-right{
+	margin-left: -16%;
+}
+.arrow-down{
+	transform: rotate(90deg);
+    margin-bottom: 5%;
+}
+.arrow-up{
+	transform: rotate(270deg);
+	margin-bottom: -6%;
+}
+.arrow-left{
+    transform: rotate(180deg);
+    margin-right: -16%;
 
+}
 @media only screen and (max-width: 320px) {
 	#logo {
 		padding-top: 0px; 
@@ -699,40 +750,49 @@
 	#b-none{
 		border: none;
 	}
-}
-.dubble-your-coin {
-	text-align: center;
-	padding: 20px;
-}
-.dubble-your-coin p {
-	width: 20%;
-    margin: 0 auto;
-}
-.content-text p {
-	width: 100%;
-	padding: 5%;
-}
-.boxes {
-	width: 55%;
-    margin: 5% auto;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	align-items: center;
-}
-.content-box {
-	width: 40%;
-    display: flex;
-    border: 1px solid silver;
-    border-radius: 9px;
-    padding: 1%;
-}
-.content-img {
-	width: 30%;
-}
-.content-text {
-	width: 70%;
-}
-.arrow-up , .arrow-down {
-	width: 40%;
+	.content-box {
+		width: 100%;
+	}
+	.content-img {
+		width: 30%;
+	}
+	.content-text {
+		width: 70%;
+	}
+	.arrow-up , .arrow-down {
+		width: 40%;
+	}
+	.dubble-your-coin {
+		text-align: center;
+		padding: 20px;
+	}
+	.dubble-your-coin p {
+		width: 20%;
+		margin: 0 auto;
+	}
+	.content-text p {
+		width: 100%;
+		padding: 5%;
+	}
+	.boxes {
+		display: block;
+		width: 100%;
+	}
+	.arrow-up{
+		display: none;
+	}
+	.arrow-right {
+		transform: rotate(90deg);
+		margin-left: 0px;
+		margin-bottom: 10%;
+	}
+	.arrow-down{
+		margin-left: 30%;
+		margin-bottom: 10%;
+	}
+	.arrow-left{
+	margin-bottom: 10%;
+    transform: rotate(90deg);
+    margin-right: 0px;
+	}
 }
