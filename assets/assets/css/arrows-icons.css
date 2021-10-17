@@ -1,0 +1,156 @@
+.wallet-icon{
+	width: 25px;
+	color: #1e98ff;
+	font-size: 30px;
+	float: left;
+}
+.blue-arrow-left{
+	margin-top: 115px;
+    content: "\f060";
+    font-size: 40px;
+    color: #def0ff;
+    padding-top: -18px;
+    display: block;
+	z-index: 1;
+	margin-right: -13px;
+}
+.blue-arrow-right{
+	margin-top: 115px;
+    font-size: 40px;
+    color: #1e98ff;
+    padding-top: -18px;
+    display: block;
+	z-index: 3;
+	margin-left: -13px;
+}
+.arrow-gray-right-line{
+	width: 60px;
+    border: 1px solid gray;
+    margin-bottom: 65px;
+    margin-right: 80px;
+    margin-left: -5px;
+}
+.arrow-gray-right-end{
+    font-weight: 400px;
+    display: inline;
+    margin-right: 80px;
+    margin-left: -92px;
+    position: absolute;
+    margin-top: -14px;
+    font-size: 20px;
+    color: gray;
+}
+.arrow-gray-left-line{
+	width: 60px;
+    border: 1px solid gray;
+    margin-bottom: 65px;
+    margin-right: -5px;
+    margin-left: 80px;
+}
+.arrow-gray-left-end{
+    font-weight: 400px;
+    display: inline;
+    margin-left: -60px;
+    position: absolute;
+    margin-top: -14px;
+    font-size: 20px;
+    color: gray;
+}
+.arrow-gray-up-line{
+    border: 1px solid gray;
+    margin-right: 460px;
+    height: 60px;
+    margin-bottom: -5px;
+}
+.arrow-gray-up-end{
+	font-weight: 400px;
+    position: absolute;
+    margin-top: -72px;
+    font-size: 20px;
+    margin-left: -7px;
+    color: gray;
+}
+.arrow-gray-down-line{
+	border: 1px solid gray;
+    height: 60px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: -121px;
+}
+.arrow-gray-down-end{
+	font-weight: 400px;
+    position: absolute;
+    font-size: 20px;
+    color: gray;
+	margin-top: -80px;
+    margin-left: 14px;
+}
+.arrow-end{
+	color: #1e98ff;
+    z-index: 1;
+    margin-top: -20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.arrow-end-two {
+    color: #1e98ff;
+    font-size: 25px;
+    margin-top: -4px;
+    font-weight: 700;
+    transform: translateX(-48%);
+	}
+.arrow-start{
+	color: #1e98ff;
+    z-index: 1;
+    margin-top: -20px;
+    margin-right: 102px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.arrow-line{
+	border: 1px solid #1e98ff;
+    margin-top: 15px;
+	width: 60px;
+}
+.arrow-line-two{
+    border: 1px solid #1e98ff;
+    width: 60px;
+    position: relative;
+    transform: translateY(15px);
+}
+.fa-user:before {
+    color: white;
+    margin-left: -40px;
+}
+.fa-envelope{
+	color: white;
+	margin-left: -40px;
+}
+.calendar{
+	padding-right: 5px;
+    font-size: 12px;
+	color:#1e98ff;
+}
+.bitcoin-icon{
+	padding-right: 5px;
+    font-size: 12px;
+	color:orange;
+}
+.clock-icon{
+	padding-right: 5px;
+	font-size: 12px;
+	color:#1e98ff;
+}
+.big-icon{
+    content: "\f02d";
+    float: left;
+    padding: 0px;
+    font-size: 40px;
+    background-color: #1e98ff;
+    color: white;
+    border: 2px solid #1e98ff;
+    border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+    padding: 25px;
+}
