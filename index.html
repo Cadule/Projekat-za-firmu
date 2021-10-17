@@ -25,6 +25,9 @@
 					<div class="f-left">
 						<img id="logo" class="logo"src="assets/images/logo.jpg" width="180" />
 					</div>
+					<div class="space-button">
+						<button id="menu-button" style="width: 40px; height: 40px; background-color: rgba(128, 128, 128, 0.521); float:right"></button>
+					</div>
 					<nav class="navigation-menu">
 						<ul class="menu">
 							<li><a id="c-white" href="">Home</a></li>
@@ -389,7 +392,7 @@
 									<div class="content-box">
 										<div class="content-img"><i class="fas fa-wallet move-left big-icon"></i></div>
 										<div class="content-text">
-											<h2></h2>
+											<h2>Open Deposit</h2>
 											<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis esse totam, rem iusto error aperiam nobis dicta? Debitis incidunt accusamus alias cumque explicabo reiciendis cupiditate officia quae blanditiis, nisi non!</p>
 										</div>
 									</div>
@@ -425,9 +428,11 @@
 								<p class="name-space-text-two">Why should I leave my name?</p>
 							</div>
 							<div id="text-left" id="text-center">
-								<input type="text" name="firstname" class="form-control" placeholder="Enter your name here..." required />
+								<input type="text" name="firstname" class="form-control name-input" placeholder="Enter your name here..." required />
 								<i class="fa fa-user icon"></i>
 							</div>
+							<p class="error-name">Name cannot be empty</p>
+							<p></p>
 						</div>
 						<div class="email-space" id="email-space">
 							<div class="email-space-text"style="display: flex;;text-align: left;">
@@ -435,9 +440,10 @@
 								<p class="email-space-text-two">Why should I leave my e-mail?</p>
 							</div>
 							<div class="text-left" id="tr-x-minus11">
-								<input type="text" name="firstname" class="form-control" placeholder="Enter your email name here..." required />
+								<input type="text" name="firstname" class="form-control email-input" placeholder="Enter your email name here..." required />
 								<i class="fas fa-envelope"></i>
 							</div>
+							<p class="error-email">Email cannot be empty</p>
 							<div class="form-row">
 								<input type="radio" name="gender" checked />  I want to receive updates from rechange to my email
 							</div>
@@ -481,7 +487,7 @@
 				</tr>
 				<tr>
 					<td colspan="3" style="position: relative;bottom: 30%;">
-						<div class="move-up">
+						<div class="move-up" style="transform:translateY(-45px)">
 							<i class="fab fa-facebook-f pr-10 ft-icon-color"id="pr-5"></i><i class="fab fa-twitter pr-10 ft-icon-color"id="pr-5"></i><i class="fab fa-twitter pr-10 ft-icon-color"id="pr-5"></i><i class="fab fa-trello pr-10 ft-icon-color"id="pr-5"></i><i class="fab fa-earlybirds pr-10 ft-icon-color"id="pr-5"></i></td>
 						</div>
 							<td colspan="3">

@@ -72,6 +72,10 @@ body {
 .menu {
   margin-top: 20px;
 }
+
+.menu-active {
+  display: block !important;
+}
 .second-menu {
   text-transform: uppercase;
   background-color: #f4f4f4;
@@ -261,7 +265,7 @@ body {
 .pt10-pr60-pl10-pb60 {
   padding: 10px 60px 10px 60px;
 }
-.border-gray{
+.border-gray {
   border-bottom: 1px solid gray;
 }
 .p-20 {
@@ -295,8 +299,30 @@ input:focus {
 .big-name-space {
   padding-left: 35px;
 }
-#tr-x-minus11{
+#tr-x-minus11 {
   transform: translateX(-11px);
   text-align: center;
 }
+.space-button {
+  display: none;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.error-name {
+  font-size: 11px;
+  color: red;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 5%;
+  display: none;
+}
+.error-email {
+  font-size: 11px;
+  color: red;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 5%;
+  display: none;
+}
+
 

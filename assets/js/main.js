@@ -1,9 +1,26 @@
-"use strict";
-let apiKey= "db6e8ce4-0891-43da-8978-9811a4cabd07";
-let url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
-    qString = "?CMC_PRO_API_KEY=" + apiKey + "&start=1&limit=5&convert=USD";
+const menuButton = document.getElementById("menu-button");
+const menu = document.querySelector(".menu");
+const joinBtn = document.getElementById("join-btn");
+const nameInput = document.querySelector(".name-input");
+const emailInput = document.querySelector(".email-input");
+const emailErr = document.querySelector(".error-email");
+const nameErr = document.querySelector(".error-name");
 
-fetch(url + Qstring)
-     .then(function(resp){
-	 console.log(resp);
-     });
+menuButton.addEventListener("click", (e) => {
+  menu.classList.toggle("menu-active");
+});
+
+joinBtn.addEventListener("click", (e) => {
+  if (emailInput.value == "") {
+    emailErr.style.display = "block";
+  } else {
+    emailErr.style.display = "none";
+  }
+
+  if (nameInput.value == "") {
+    nameErr.style.display = "block";
+  } else {
+    nameErr.style.display = "none";
+  }
+});
+
