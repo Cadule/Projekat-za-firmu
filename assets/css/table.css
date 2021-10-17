@@ -1,64 +1,66 @@
-.currency-table{
-	width: 100%;
+.currency-table {
+  width: 100%;
 }
-.currency-table tr td{
-	padding: 20px;
+.currency-table tr td {
+  padding: 20px;
 }
 .my-table-2 {
-	margin: 0px auto;
-	width: 700px;
-	position: relative;
-	top: 62px;
+  margin: 0px auto;
+  width: 700px;
+  position: relative;
+  top: 62px;
 }
 
 .my-table-2 tr td {
-	padding: 10px;
-	text-align:left;
+  padding: 10px;
+  text-align: left;
 }
 .form-control {
-	border: 1px solid #2b2b5c;
-    width: 310px;
-    padding: 20px;
-    border-radius: 40px;
-    margin-top: 15px;
-    background-color: #2b2b5c;
-	color: #a8a7d4;
+  border: 1px solid #2b2b5c;
+  width: 310px;
+  padding: 20px;
+  border-radius: 40px;
+  margin-top: 15px;
+  background-color: #2b2b5c;
+  color: #a8a7d4;
 }
 .form-row {
-	text-align: left;
-	color: #a8a7d4;
-	margin-top: 10px;
-	font-size: 12px;
+  text-align: left;
+  color: #a8a7d4;
+  margin-top: 10px;
+  font-size: 10px;
 }
-.second-drop{
-	height: 42px;
-	border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	padding-left: 50px;
-	background-color: #1e98ff;
-	color: #a8a7d4;
-	border: 1px solid #1e98ff;
-	margin-left: -45px;
+.second-drop {
+  height: 42px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding-left: 50px;
+  background-color: #1e98ff;
+  color: #a8a7d4;
+  border: 1px solid #1e98ff;
+  margin-left: -45px;
 }
 .my-table-1 {
-	width: 100%;
-	border-collapse: collapse;
-	text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
 }
 .my-table-1 tr th {
-    background-color: #19194b;
-    color: white;
-    padding: 10px 10px;
-	font-weight: 100;
+  background-color: #19194b;
+  color: white;
+  padding: 10px 10px;
+  font-weight: 100;
 }
 .my-table-1 tr:nth-child(2) {
-	background-color: black;
+  background-color: black;
 }
-#my-table-1 tr:nth-child(odd){background-color: #f0f3f7;}
+#my-table-1 tr:nth-child(odd) {
+  background-color: #f0f3f7;
+}
 
 .my-table-1 tr td {
-	padding: 10px;
-	font-family: monospace;
-    color: #19194b;
+  padding: 10px;
+  font-family: monospace;
+  color: #19194b;
 }
